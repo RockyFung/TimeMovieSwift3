@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		3B387D4692F9C110526797E9 /* Pods_TimeMovieSwift3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5246E1C11818F97DE67C4599 /* Pods_TimeMovieSwift3UITests.framework */; };
+		5C2ACB831DE6CA0900AF8399 /* PosterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2ACB821DE6CA0900AF8399 /* PosterCollectionViewCell.swift */; };
+		5C2ACB851DE6D9E900AF8399 /* PosterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2ACB841DE6D9E900AF8399 /* PosterDetailView.swift */; };
+		5C2ACB871DE6DA4E00AF8399 /* PosterDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2ACB861DE6DA4E00AF8399 /* PosterDetailView.xib */; };
+		5C2ACB891DE6EC2D00AF8399 /* IndexCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2ACB881DE6EC2D00AF8399 /* IndexCollectionView.swift */; };
+		5C2ACB8B1DE6EC6C00AF8399 /* IndexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2ACB8A1DE6EC6C00AF8399 /* IndexCell.swift */; };
+		5C6848C01DE6899B0030C32A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6848BF1DE6899B0030C32A /* HomeViewController.swift */; };
+		5C6848C71DE6BCDF0030C32A /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6848C61DE6BCDF0030C32A /* PosterView.swift */; };
+		5C6848CB1DE6BF250030C32A /* PosterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6848CA1DE6BF250030C32A /* PosterCollectionView.swift */; };
+		5C6848CD1DE6BF380030C32A /* BaseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6848CC1DE6BF380030C32A /* BaseCollectionView.swift */; };
 		5C6CEE2E1DE5387300B23CDE /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CEE2D1DE5387300B23CDE /* HomeModel.swift */; };
 		5C6CEE301DE539D400B23CDE /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CEE2F1DE539D400B23CDE /* BaseModel.swift */; };
 		5C6CEE331DE5451D00B23CDE /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CEE311DE5451D00B23CDE /* HomeTableViewCell.swift */; };
@@ -290,7 +299,6 @@
 		5C8A2FD01DE443690056554E /* 道士下山.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5C8A2FB91DE443690056554E /* 道士下山.mp4 */; };
 		5C8A2FD11DE443690056554E /* 预告.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C8A2FBA1DE443690056554E /* 预告.json */; };
 		5C8A2FF11DE4436E0056554E /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A2FD51DE4436E0056554E /* DiscoverViewController.swift */; };
-		5C8A2FF21DE4436E0056554E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A2FDE1DE4436E0056554E /* HomeViewController.swift */; };
 		5C8A2FF31DE4436E0056554E /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A2FE11DE4436E0056554E /* MyInfoViewController.swift */; };
 		5C8A2FF41DE4436E0056554E /* PayTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A2FEA1DE4436E0056554E /* PayTicketViewController.swift */; };
 		5C8A2FF51DE4436E0056554E /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A2FED1DE4436E0056554E /* StoreViewController.swift */; };
@@ -324,6 +332,16 @@
 		2E1267FD8DDDDD6159CC7346 /* Pods_TimeMovieSwift3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeMovieSwift3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E70BE431741B247B83C13B9 /* Pods-TimeMovieSwift3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeMovieSwift3.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeMovieSwift3/Pods-TimeMovieSwift3.release.xcconfig"; sourceTree = "<group>"; };
 		5246E1C11818F97DE67C4599 /* Pods_TimeMovieSwift3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeMovieSwift3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2ACB821DE6CA0900AF8399 /* PosterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C2ACB841DE6D9E900AF8399 /* PosterDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterDetailView.swift; sourceTree = "<group>"; };
+		5C2ACB861DE6DA4E00AF8399 /* PosterDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PosterDetailView.xib; sourceTree = "<group>"; };
+		5C2ACB881DE6EC2D00AF8399 /* IndexCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCollectionView.swift; sourceTree = "<group>"; };
+		5C2ACB8A1DE6EC6C00AF8399 /* IndexCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCell.swift; sourceTree = "<group>"; };
+		5C6848BF1DE6899B0030C32A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = TimeMovieSwift3/Main/Home/ViewModel/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		5C6848C21DE6BCA30030C32A /* TimeMovieSwift3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TimeMovieSwift3-Bridging-Header.h"; path = "Main/Home/View/PosterView/TimeMovieSwift3-Bridging-Header.h"; sourceTree = "<group>"; };
+		5C6848C61DE6BCDF0030C32A /* PosterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
+		5C6848CA1DE6BF250030C32A /* PosterCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterCollectionView.swift; sourceTree = "<group>"; };
+		5C6848CC1DE6BF380030C32A /* BaseCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionView.swift; sourceTree = "<group>"; };
 		5C6CEE2D1DE5387300B23CDE /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		5C6CEE2F1DE539D400B23CDE /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		5C6CEE311DE5451D00B23CDE /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
@@ -612,7 +630,6 @@
 		5C8A2FB91DE443690056554E /* 道士下山.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "道士下山.mp4"; sourceTree = "<group>"; };
 		5C8A2FBA1DE443690056554E /* 预告.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "预告.json"; sourceTree = "<group>"; };
 		5C8A2FD51DE4436E0056554E /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
-		5C8A2FDE1DE4436E0056554E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../ViewModel/HomeViewController.swift; sourceTree = "<group>"; };
 		5C8A2FE11DE4436E0056554E /* MyInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
 		5C8A2FEA1DE4436E0056554E /* PayTicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTicketViewController.swift; sourceTree = "<group>"; };
 		5C8A2FED1DE4436E0056554E /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
@@ -666,6 +683,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5C6848C11DE6BC7D0030C32A /* PosterView */ = {
+			isa = PBXGroup;
+			children = (
+				5C6848C61DE6BCDF0030C32A /* PosterView.swift */,
+				5C6848CA1DE6BF250030C32A /* PosterCollectionView.swift */,
+				5C2ACB821DE6CA0900AF8399 /* PosterCollectionViewCell.swift */,
+				5C2ACB841DE6D9E900AF8399 /* PosterDetailView.swift */,
+				5C2ACB861DE6DA4E00AF8399 /* PosterDetailView.xib */,
+				5C2ACB881DE6EC2D00AF8399 /* IndexCollectionView.swift */,
+				5C2ACB8A1DE6EC6C00AF8399 /* IndexCell.swift */,
+			);
+			path = PosterView;
+			sourceTree = "<group>";
+		};
 		5C8A2D651DE443360056554E = {
 			isa = PBXGroup;
 			children = (
@@ -699,6 +730,7 @@
 				5C8A2D9F1DE443600056554E /* images */,
 				5C8A2D751DE443360056554E /* Main.storyboard */,
 				5C8A2D781DE443360056554E /* Assets.xcassets */,
+				5C6848C21DE6BCA30030C32A /* TimeMovieSwift3-Bridging-Header.h */,
 				5C8A2D7A1DE443360056554E /* LaunchScreen.storyboard */,
 				5C8A2D7D1DE443360056554E /* Info.plist */,
 			);
@@ -1270,7 +1302,7 @@
 		5C8A2FDA1DE4436E0056554E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5C8A2FDE1DE4436E0056554E /* HomeViewController.swift */,
+				5C6848BF1DE6899B0030C32A /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1286,6 +1318,7 @@
 		5C8A2FDC1DE4436E0056554E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5C6848C11DE6BC7D0030C32A /* PosterView */,
 				5C6CEE311DE5451D00B23CDE /* HomeTableViewCell.swift */,
 				5C6CEE321DE5451D00B23CDE /* HomeTableViewCell.xib */,
 				5C6CEE391DE5969D00B23CDE /* RatingView.swift */,
@@ -1429,6 +1462,7 @@
 				5C8A2FF91DE443760056554E /* BaseViewController.swift */,
 				5C6CEE2F1DE539D400B23CDE /* BaseModel.swift */,
 				5C6CEE371DE57C7800B23CDE /* CoreDataFromJson.swift */,
+				5C6848CC1DE6BF380030C32A /* BaseCollectionView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -1520,6 +1554,7 @@
 				TargetAttributes = {
 					5C8A2D6D1DE443360056554E = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					5C8A2D811DE443360056554E = {
@@ -1815,6 +1850,7 @@
 				5C8A2ED31DE443610056554E /* tab_bg_all@2x.png in Resources */,
 				5C8A2F681DE443610056554E /* icon_movie_imax@2x.png in Resources */,
 				5C8A2F501DE443610056554E /* v10_MtimeTop100@3x.png in Resources */,
+				5C2ACB871DE6DA4E00AF8399 /* PosterDetailView.xib in Resources */,
 				5C8A2F761DE443610056554E /* wizard1_1096.jpg in Resources */,
 				5C8A2F821DE443610056554E /* exchange_bg_home@2x.png in Resources */,
 				5C8A2FCB1DE443690056554E /* 今日热点.json in Resources */,
@@ -1997,17 +2033,24 @@
 				5C8A2D741DE443360056554E /* ViewController.swift in Sources */,
 				5C6CEE331DE5451D00B23CDE /* HomeTableViewCell.swift in Sources */,
 				5C6CEE2E1DE5387300B23CDE /* HomeModel.swift in Sources */,
+				5C6848CD1DE6BF380030C32A /* BaseCollectionView.swift in Sources */,
 				5C8A2FF31DE4436E0056554E /* MyInfoViewController.swift in Sources */,
 				5C8A2FF41DE4436E0056554E /* PayTicketViewController.swift in Sources */,
 				5C8A2D721DE443360056554E /* AppDelegate.swift in Sources */,
+				5C2ACB831DE6CA0900AF8399 /* PosterCollectionViewCell.swift in Sources */,
 				5C6CEE301DE539D400B23CDE /* BaseModel.swift in Sources */,
+				5C2ACB8B1DE6EC6C00AF8399 /* IndexCell.swift in Sources */,
 				5C8A2FFC1DE443760056554E /* BaseViewController.swift in Sources */,
 				5C6CEE361DE57ADE00B23CDE /* HomeViewModel.swift in Sources */,
+				5C6848C01DE6899B0030C32A /* HomeViewController.swift in Sources */,
 				5C6CEE3A1DE5969D00B23CDE /* RatingView.swift in Sources */,
+				5C6848CB1DE6BF250030C32A /* PosterCollectionView.swift in Sources */,
 				5C8A2FFA1DE443760056554E /* BaseNavViewController.swift in Sources */,
-				5C8A2FF21DE4436E0056554E /* HomeViewController.swift in Sources */,
 				5C8A2FF51DE4436E0056554E /* StoreViewController.swift in Sources */,
 				5C8A2FFB1DE443760056554E /* BaseTabBarViewController.swift in Sources */,
+				5C2ACB891DE6EC2D00AF8399 /* IndexCollectionView.swift in Sources */,
+				5C2ACB851DE6D9E900AF8399 /* PosterDetailView.swift in Sources */,
+				5C6848C71DE6BCDF0030C32A /* PosterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2160,11 +2203,15 @@
 			baseConfigurationReference = 2828E1311F23755DE7D1028E /* Pods-TimeMovieSwift3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TimeMovieSwift3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rocky.TimeMovieSwift3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeMovieSwift3/Main/Home/View/PosterView/TimeMovieSwift3-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -2174,11 +2221,14 @@
 			baseConfigurationReference = 3E70BE431741B247B83C13B9 /* Pods-TimeMovieSwift3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TimeMovieSwift3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rocky.TimeMovieSwift3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeMovieSwift3/Main/Home/View/PosterView/TimeMovieSwift3-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PosterDetailView" customModule="TimeMovieSwift3" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="221" height="301"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zHI-YQ-b4j">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="5D0-WP-ly3"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="adO-BT-C1J"/>
+                        <constraint firstAttribute="width" constant="100" id="fIC-Id-OD6"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyV-7W-w1Z" userLabel="TitleCN Label">
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.87450980389999999" green="0.87450980389999999" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPP-zZ-xfk" userLabel="TitleEN Label">
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.87450980389999999" green="0.87450980389999999" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GwE-rp-gLy" userLabel="Year Label">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Dfd-DH-aHC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.87450980389999999" green="0.87450980389999999" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vZ3-aM-gKC" userLabel="Rating View" customClass="RatingView" customModule="TimeMovieSwift3" customModuleProvider="target">
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="Rzu-cn-ESS"/>
+                        <constraint firstAttribute="height" constant="30" id="VMf-1M-pMG"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FjD-cr-PxD">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vZ3-aM-gKC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="IO9-UL-ar3"/>
+                <constraint firstItem="zHI-YQ-b4j" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="Ici-3M-RBf"/>
+                <constraint firstItem="oPP-zZ-xfk" firstAttribute="leading" secondItem="zHI-YQ-b4j" secondAttribute="trailing" constant="5" id="LAV-iL-J2Y"/>
+                <constraint firstItem="GwE-rp-gLy" firstAttribute="bottom" secondItem="zHI-YQ-b4j" secondAttribute="bottom" id="LK2-7i-8xk"/>
+                <constraint firstItem="zHI-YQ-b4j" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="LLW-D6-RTL"/>
+                <constraint firstItem="GwE-rp-gLy" firstAttribute="leading" secondItem="zHI-YQ-b4j" secondAttribute="trailing" constant="5" id="NgW-ZU-jya"/>
+                <constraint firstAttribute="trailing" secondItem="GwE-rp-gLy" secondAttribute="trailing" constant="5" id="PxN-PE-LUF"/>
+                <constraint firstItem="GwE-rp-gLy" firstAttribute="leading" secondItem="zHI-YQ-b4j" secondAttribute="trailing" constant="5" id="Ts7-xW-Vfm"/>
+                <constraint firstAttribute="trailing" secondItem="oPP-zZ-xfk" secondAttribute="trailing" constant="5" id="YOE-zc-wud"/>
+                <constraint firstItem="pyV-7W-w1Z" firstAttribute="leading" secondItem="zHI-YQ-b4j" secondAttribute="trailing" constant="5" id="a1y-j4-GPM"/>
+                <constraint firstItem="oPP-zZ-xfk" firstAttribute="top" secondItem="pyV-7W-w1Z" secondAttribute="bottom" constant="10" id="dJN-hr-vbt"/>
+                <constraint firstItem="FjD-cr-PxD" firstAttribute="top" secondItem="vZ3-aM-gKC" secondAttribute="top" id="fcg-4T-mtu"/>
+                <constraint firstItem="pyV-7W-w1Z" firstAttribute="top" secondItem="zHI-YQ-b4j" secondAttribute="top" id="qCq-7f-vAa"/>
+                <constraint firstItem="vZ3-aM-gKC" firstAttribute="top" secondItem="GwE-rp-gLy" secondAttribute="bottom" constant="20" id="qf4-g0-0Bh"/>
+                <constraint firstAttribute="trailing" secondItem="pyV-7W-w1Z" secondAttribute="trailing" constant="5" id="ug3-3c-bN3"/>
+                <constraint firstItem="FjD-cr-PxD" firstAttribute="leading" secondItem="vZ3-aM-gKC" secondAttribute="trailing" constant="10" id="unh-Ug-nz0"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="movieImage" destination="zHI-YQ-b4j" id="bVZ-zQ-Xay"/>
+                <outlet property="rating" destination="FjD-cr-PxD" id="GHv-pD-4wA"/>
+                <outlet property="ratingView" destination="vZ3-aM-gKC" id="v41-OO-Bn2"/>
+                <outlet property="titleCN" destination="pyV-7W-w1Z" id="44s-PH-eDC"/>
+                <outlet property="titleEN" destination="oPP-zZ-xfk" id="bMJ-FL-jca"/>
+                <outlet property="year" destination="GwE-rp-gLy" id="5bT-pZ-w2c"/>
+            </connections>
+            <point key="canvasLocation" x="-86.5" y="-73.5"/>
+        </view>
+    </objects>
+</document>

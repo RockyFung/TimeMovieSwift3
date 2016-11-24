@@ -16,6 +16,7 @@ class HomeViewController: BaseViewController {
     }()
     
     var tableView:UITableView?
+    var posterView:PosterView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +25,8 @@ class HomeViewController: BaseViewController {
         loadData()
         // 加载视图
         creatView()
-        
+        // 导航栏视图
+        creatNavBarItem()
         
     }
     
@@ -38,6 +40,12 @@ class HomeViewController: BaseViewController {
         tableView?.separatorStyle = UITableViewCellSeparatorStyle.none
         tableView?.rowHeight = 110
         view.addSubview(tableView!)
+        
+        posterView = PosterView(frame:(tableView?.frame)!)
+        posterView?.isHidden = true
+        posterView?.dataList = dataList
+        posterView?.backgroundColor = UIColor.clear
+        view.addSubview(posterView!)
     }
     
     // 加载数据
@@ -49,11 +57,46 @@ class HomeViewController: BaseViewController {
         }
     }
     
+    // 导航栏
+    func creatNavBarItem(){
+        // 右侧按钮
+        let rightBtn = UIButton(type:UIButtonType.custom)
+        rightBtn.frame = CGRect(x:0, y:0, width: 49, height:25)
+        rightBtn.setImage(UIImage(named:"list_home"), for: UIControlState.normal)
+        rightBtn.setBackgroundImage(UIImage(named:"exchange_bg_home"), for: UIControlState.normal)
+        rightBtn.setImage(UIImage(named:"poster_home"), for: UIControlState.selected)
+        rightBtn.setBackgroundImage(UIImage(named:"exchange_bg_home"), for: UIControlState.selected)
+        rightBtn.addTarget(self, action: #selector(rightBtnAction(btn:)), for: UIControlEvents.touchUpInside)
+        navigationItem.rightBarButtonItem = UIBarButtonItem(customView:rightBtn)
+    }
     
+    // 右侧点击事件
+    func rightBtnAction(btn:UIButton){
+        btn.isSelected = !btn.isSelected
+        
+        if btn.isSelected {
+            navigationController?.navigationBar.alpha = 0.5
+            tableView?.isHidden = true
+            posterView?.isHidden = false
+            
+        }else{
+            navigationController?.navigationBar.alpha = 1
+            tableView?.isHidden = false
+            posterView?.isHidden = true
+        }
+        
+        // 按钮翻转
+        flipWithView(view: btn, isLeft: !btn.isSelected)
+        // 本页面翻转
+        flipWithView(view: view, isLeft: !btn.isSelected)
+    }
     
-    
-    
-    
+    // 翻转动画
+    func flipWithView(view:UIView, isLeft:Bool){
+        UIView.animate(withDuration: 0.3) { 
+            UIView.setAnimationTransition(isLeft ? UIViewAnimationTransition.flipFromLeft : UIViewAnimationTransition.flipFromRight, for: view, cache: true)
+        }
+    }
     
     
     
