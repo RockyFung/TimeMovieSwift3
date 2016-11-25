@@ -28,14 +28,14 @@ class BaseModel: NSObject {
             let nName = String(cString:ivarName!)
             
             // 取出要赋值的值
-            var attribut = attributDic[nName]
+            var attribut = attributDic[nName] // 取出key
             if attribut == nil{
                 attribut = ""
             }
             
             var value:NSObject
             if dic[attribut!] != nil {
-                value = dic[attribut!] as! NSObject
+                value = dic[attribut!] as! NSObject // 取出value
             }else{
                 value = "" as NSObject
             }
