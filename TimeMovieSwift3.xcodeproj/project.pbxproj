@@ -13,6 +13,11 @@
 		5C2ACB871DE6DA4E00AF8399 /* PosterDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2ACB861DE6DA4E00AF8399 /* PosterDetailView.xib */; };
 		5C2ACB891DE6EC2D00AF8399 /* IndexCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2ACB881DE6EC2D00AF8399 /* IndexCollectionView.swift */; };
 		5C2ACB8B1DE6EC6C00AF8399 /* IndexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2ACB8A1DE6EC6C00AF8399 /* IndexCell.swift */; };
+		5C4F59871DE7E09C00C0E5C4 /* HotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F59861DE7E09C00C0E5C4 /* HotModel.swift */; };
+		5C4F59891DE7E0A500C0E5C4 /* WillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F59881DE7E0A500C0E5C4 /* WillModel.swift */; };
+		5C4F598B1DE7E1BE00C0E5C4 /* PayTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F598A1DE7E1BE00C0E5C4 /* PayTicketViewController.swift */; };
+		5C4F598D1DE7E1D000C0E5C4 /* PayTicketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F598C1DE7E1D000C0E5C4 /* PayTicketViewModel.swift */; };
+		5C4F598F1DE7F79800C0E5C4 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F598E1DE7F79800C0E5C4 /* SegmentView.swift */; };
 		5C6848C01DE6899B0030C32A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6848BF1DE6899B0030C32A /* HomeViewController.swift */; };
 		5C6848C71DE6BCDF0030C32A /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6848C61DE6BCDF0030C32A /* PosterView.swift */; };
 		5C6848CB1DE6BF250030C32A /* PosterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6848CA1DE6BF250030C32A /* PosterCollectionView.swift */; };
@@ -300,7 +305,6 @@
 		5C8A2FD11DE443690056554E /* 预告.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C8A2FBA1DE443690056554E /* 预告.json */; };
 		5C8A2FF11DE4436E0056554E /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A2FD51DE4436E0056554E /* DiscoverViewController.swift */; };
 		5C8A2FF31DE4436E0056554E /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A2FE11DE4436E0056554E /* MyInfoViewController.swift */; };
-		5C8A2FF41DE4436E0056554E /* PayTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A2FEA1DE4436E0056554E /* PayTicketViewController.swift */; };
 		5C8A2FF51DE4436E0056554E /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A2FED1DE4436E0056554E /* StoreViewController.swift */; };
 		5C8A2FFA1DE443760056554E /* BaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A2FF71DE443760056554E /* BaseNavViewController.swift */; };
 		5C8A2FFB1DE443760056554E /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A2FF81DE443760056554E /* BaseTabBarViewController.swift */; };
@@ -337,6 +341,11 @@
 		5C2ACB861DE6DA4E00AF8399 /* PosterDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PosterDetailView.xib; sourceTree = "<group>"; };
 		5C2ACB881DE6EC2D00AF8399 /* IndexCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCollectionView.swift; sourceTree = "<group>"; };
 		5C2ACB8A1DE6EC6C00AF8399 /* IndexCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCell.swift; sourceTree = "<group>"; };
+		5C4F59861DE7E09C00C0E5C4 /* HotModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HotModel.swift; path = TimeMovieSwift3/Main/Home/View/PosterView/HotModel.swift; sourceTree = SOURCE_ROOT; };
+		5C4F59881DE7E0A500C0E5C4 /* WillModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WillModel.swift; path = TimeMovieSwift3/Main/Home/View/PosterView/WillModel.swift; sourceTree = SOURCE_ROOT; };
+		5C4F598A1DE7E1BE00C0E5C4 /* PayTicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PayTicketViewController.swift; path = TimeMovieSwift3/Main/PayTicket/ViewModel/PayTicketViewController.swift; sourceTree = SOURCE_ROOT; };
+		5C4F598C1DE7E1D000C0E5C4 /* PayTicketViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTicketViewModel.swift; sourceTree = "<group>"; };
+		5C4F598E1DE7F79800C0E5C4 /* SegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
 		5C6848BF1DE6899B0030C32A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = TimeMovieSwift3/Main/Home/ViewModel/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
 		5C6848C21DE6BCA30030C32A /* TimeMovieSwift3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TimeMovieSwift3-Bridging-Header.h"; path = "Main/Home/View/PosterView/TimeMovieSwift3-Bridging-Header.h"; sourceTree = "<group>"; };
 		5C6848C61DE6BCDF0030C32A /* PosterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
@@ -631,7 +640,6 @@
 		5C8A2FBA1DE443690056554E /* 预告.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "预告.json"; sourceTree = "<group>"; };
 		5C8A2FD51DE4436E0056554E /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		5C8A2FE11DE4436E0056554E /* MyInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
-		5C8A2FEA1DE4436E0056554E /* PayTicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTicketViewController.swift; sourceTree = "<group>"; };
 		5C8A2FED1DE4436E0056554E /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 		5C8A2FF71DE443760056554E /* BaseNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavViewController.swift; sourceTree = "<group>"; };
 		5C8A2FF81DE443760056554E /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
@@ -1388,6 +1396,7 @@
 		5C8A2FE61DE4436E0056554E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5C4F598A1DE7E1BE00C0E5C4 /* PayTicketViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1395,6 +1404,8 @@
 		5C8A2FE71DE4436E0056554E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5C4F59861DE7E09C00C0E5C4 /* HotModel.swift */,
+				5C4F59881DE7E0A500C0E5C4 /* WillModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1409,7 +1420,7 @@
 		5C8A2FE91DE4436E0056554E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				5C8A2FEA1DE4436E0056554E /* PayTicketViewController.swift */,
+				5C4F598C1DE7E1D000C0E5C4 /* PayTicketViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -1463,6 +1474,7 @@
 				5C6CEE2F1DE539D400B23CDE /* BaseModel.swift */,
 				5C6CEE371DE57C7800B23CDE /* CoreDataFromJson.swift */,
 				5C6848CC1DE6BF380030C32A /* BaseCollectionView.swift */,
+				5C4F598E1DE7F79800C0E5C4 /* SegmentView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -2029,18 +2041,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C8A2FF11DE4436E0056554E /* DiscoverViewController.swift in Sources */,
+				5C4F598F1DE7F79800C0E5C4 /* SegmentView.swift in Sources */,
 				5C6CEE381DE57C7800B23CDE /* CoreDataFromJson.swift in Sources */,
 				5C8A2D741DE443360056554E /* ViewController.swift in Sources */,
 				5C6CEE331DE5451D00B23CDE /* HomeTableViewCell.swift in Sources */,
 				5C6CEE2E1DE5387300B23CDE /* HomeModel.swift in Sources */,
 				5C6848CD1DE6BF380030C32A /* BaseCollectionView.swift in Sources */,
 				5C8A2FF31DE4436E0056554E /* MyInfoViewController.swift in Sources */,
-				5C8A2FF41DE4436E0056554E /* PayTicketViewController.swift in Sources */,
 				5C8A2D721DE443360056554E /* AppDelegate.swift in Sources */,
 				5C2ACB831DE6CA0900AF8399 /* PosterCollectionViewCell.swift in Sources */,
 				5C6CEE301DE539D400B23CDE /* BaseModel.swift in Sources */,
 				5C2ACB8B1DE6EC6C00AF8399 /* IndexCell.swift in Sources */,
+				5C4F598D1DE7E1D000C0E5C4 /* PayTicketViewModel.swift in Sources */,
 				5C8A2FFC1DE443760056554E /* BaseViewController.swift in Sources */,
+				5C4F59871DE7E09C00C0E5C4 /* HotModel.swift in Sources */,
 				5C6CEE361DE57ADE00B23CDE /* HomeViewModel.swift in Sources */,
 				5C6848C01DE6899B0030C32A /* HomeViewController.swift in Sources */,
 				5C6CEE3A1DE5969D00B23CDE /* RatingView.swift in Sources */,
@@ -2050,7 +2064,9 @@
 				5C8A2FFB1DE443760056554E /* BaseTabBarViewController.swift in Sources */,
 				5C2ACB891DE6EC2D00AF8399 /* IndexCollectionView.swift in Sources */,
 				5C2ACB851DE6D9E900AF8399 /* PosterDetailView.swift in Sources */,
+				5C4F598B1DE7E1BE00C0E5C4 /* PayTicketViewController.swift in Sources */,
 				5C6848C71DE6BCDF0030C32A /* PosterView.swift in Sources */,
+				5C4F59891DE7E0A500C0E5C4 /* WillModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
