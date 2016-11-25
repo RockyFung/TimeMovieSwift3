@@ -18,6 +18,13 @@
 		5C4F598B1DE7E1BE00C0E5C4 /* PayTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F598A1DE7E1BE00C0E5C4 /* PayTicketViewController.swift */; };
 		5C4F598D1DE7E1D000C0E5C4 /* PayTicketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F598C1DE7E1D000C0E5C4 /* PayTicketViewModel.swift */; };
 		5C4F598F1DE7F79800C0E5C4 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F598E1DE7F79800C0E5C4 /* SegmentView.swift */; };
+		5C4F59921DE81A5400C0E5C4 /* HotNowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F59901DE81A5400C0E5C4 /* HotNowCell.swift */; };
+		5C4F59931DE81A5400C0E5C4 /* HotNowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C4F59911DE81A5400C0E5C4 /* HotNowCell.xib */; };
+		5C4F59961DE81A6700C0E5C4 /* WillMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F59941DE81A6700C0E5C4 /* WillMovieCell.swift */; };
+		5C4F59971DE81A6800C0E5C4 /* WillMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C4F59951DE81A6700C0E5C4 /* WillMovieCell.xib */; };
+		5C4F59991DE831B100C0E5C4 /* AttentionCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F59981DE831B100C0E5C4 /* AttentionCollectionView.swift */; };
+		5C4F599C1DE831C100C0E5C4 /* AttentionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F599A1DE831C100C0E5C4 /* AttentionCell.swift */; };
+		5C4F599D1DE831C100C0E5C4 /* AttentionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C4F599B1DE831C100C0E5C4 /* AttentionCell.xib */; };
 		5C6848C01DE6899B0030C32A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6848BF1DE6899B0030C32A /* HomeViewController.swift */; };
 		5C6848C71DE6BCDF0030C32A /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6848C61DE6BCDF0030C32A /* PosterView.swift */; };
 		5C6848CB1DE6BF250030C32A /* PosterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6848CA1DE6BF250030C32A /* PosterCollectionView.swift */; };
@@ -346,6 +353,13 @@
 		5C4F598A1DE7E1BE00C0E5C4 /* PayTicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PayTicketViewController.swift; path = TimeMovieSwift3/Main/PayTicket/ViewModel/PayTicketViewController.swift; sourceTree = SOURCE_ROOT; };
 		5C4F598C1DE7E1D000C0E5C4 /* PayTicketViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTicketViewModel.swift; sourceTree = "<group>"; };
 		5C4F598E1DE7F79800C0E5C4 /* SegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		5C4F59901DE81A5400C0E5C4 /* HotNowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HotNowCell.swift; path = TimeMovieSwift3/Base/HotNowCell.swift; sourceTree = SOURCE_ROOT; };
+		5C4F59911DE81A5400C0E5C4 /* HotNowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HotNowCell.xib; path = TimeMovieSwift3/Base/HotNowCell.xib; sourceTree = SOURCE_ROOT; };
+		5C4F59941DE81A6700C0E5C4 /* WillMovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WillMovieCell.swift; path = TimeMovieSwift3/Base/WillMovieCell.swift; sourceTree = SOURCE_ROOT; };
+		5C4F59951DE81A6700C0E5C4 /* WillMovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WillMovieCell.xib; path = TimeMovieSwift3/Base/WillMovieCell.xib; sourceTree = SOURCE_ROOT; };
+		5C4F59981DE831B100C0E5C4 /* AttentionCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttentionCollectionView.swift; path = TimeMovieSwift3/Base/AttentionCollectionView.swift; sourceTree = SOURCE_ROOT; };
+		5C4F599A1DE831C100C0E5C4 /* AttentionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttentionCell.swift; path = TimeMovieSwift3/Base/AttentionCell.swift; sourceTree = SOURCE_ROOT; };
+		5C4F599B1DE831C100C0E5C4 /* AttentionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AttentionCell.xib; path = TimeMovieSwift3/Base/AttentionCell.xib; sourceTree = SOURCE_ROOT; };
 		5C6848BF1DE6899B0030C32A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = TimeMovieSwift3/Main/Home/ViewModel/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
 		5C6848C21DE6BCA30030C32A /* TimeMovieSwift3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TimeMovieSwift3-Bridging-Header.h"; path = "Main/Home/View/PosterView/TimeMovieSwift3-Bridging-Header.h"; sourceTree = "<group>"; };
 		5C6848C61DE6BCDF0030C32A /* PosterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
@@ -1413,6 +1427,13 @@
 		5C8A2FE81DE4436E0056554E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5C4F59901DE81A5400C0E5C4 /* HotNowCell.swift */,
+				5C4F59911DE81A5400C0E5C4 /* HotNowCell.xib */,
+				5C4F59941DE81A6700C0E5C4 /* WillMovieCell.swift */,
+				5C4F59951DE81A6700C0E5C4 /* WillMovieCell.xib */,
+				5C4F59981DE831B100C0E5C4 /* AttentionCollectionView.swift */,
+				5C4F599A1DE831C100C0E5C4 /* AttentionCell.swift */,
+				5C4F599B1DE831C100C0E5C4 /* AttentionCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1730,6 +1751,7 @@
 				5C8A2F711DE443610056554E /* wizard2_568@2x.jpg in Resources */,
 				5C8A2EB71DE443610056554E /* home_on@3x.png in Resources */,
 				5C8A2EE51DE443610056554E /* icon_Parking@2x.png in Resources */,
+				5C4F599D1DE831C100C0E5C4 /* AttentionCell.xib in Resources */,
 				5C8A2F3D1DE443610056554E /* img_btn_green_half_press.9.png in Resources */,
 				5C8A2EB41DE443610056554E /* home@2x.png in Resources */,
 				5C8A2EC31DE443610056554E /* payticket@2x.png in Resources */,
@@ -1760,6 +1782,7 @@
 				5C8A2F3A1DE443610056554E /* Contents.json in Resources */,
 				5C8A2F071DE443610056554E /* icon_my_goods_order@3x.png in Resources */,
 				5C8A2F3B1DE443610056554E /* 选中.png in Resources */,
+				5C4F59971DE81A6800C0E5C4 /* WillMovieCell.xib in Resources */,
 				5C8A2EE31DE443610056554E /* icon_kiosk@2x.png in Resources */,
 				5C8A2F9A1DE443610056554E /* movie_select_home@2x.png in Resources */,
 				5C8A2FCE1DE443690056554E /* 蚁人.mp4 in Resources */,
@@ -1769,6 +1792,7 @@
 				5C8A2ED91DE443610056554E /* Default_568h@2x.png in Resources */,
 				5C8A2ED41DE443610056554E /* topmenu_tab_bg.png in Resources */,
 				5C8A2F1B1DE443610056554E /* home_on@2x.png in Resources */,
+				5C4F59931DE81A5400C0E5C4 /* HotNowCell.xib in Resources */,
 				5C8A2F0A1DE443610056554E /* icon_my_movie_order@2x.png in Resources */,
 				5C8A2EAF1DE443610056554E /* bg_mtime_star.jpg in Resources */,
 				5C8A2ECF1DE443610056554E /* store@3x.png in Resources */,
@@ -2046,6 +2070,9 @@
 				5C8A2D741DE443360056554E /* ViewController.swift in Sources */,
 				5C6CEE331DE5451D00B23CDE /* HomeTableViewCell.swift in Sources */,
 				5C6CEE2E1DE5387300B23CDE /* HomeModel.swift in Sources */,
+				5C4F59961DE81A6700C0E5C4 /* WillMovieCell.swift in Sources */,
+				5C4F599C1DE831C100C0E5C4 /* AttentionCell.swift in Sources */,
+				5C4F59991DE831B100C0E5C4 /* AttentionCollectionView.swift in Sources */,
 				5C6848CD1DE6BF380030C32A /* BaseCollectionView.swift in Sources */,
 				5C8A2FF31DE4436E0056554E /* MyInfoViewController.swift in Sources */,
 				5C8A2D721DE443360056554E /* AppDelegate.swift in Sources */,
@@ -2058,6 +2085,7 @@
 				5C6CEE361DE57ADE00B23CDE /* HomeViewModel.swift in Sources */,
 				5C6848C01DE6899B0030C32A /* HomeViewController.swift in Sources */,
 				5C6CEE3A1DE5969D00B23CDE /* RatingView.swift in Sources */,
+				5C4F59921DE81A5400C0E5C4 /* HotNowCell.swift in Sources */,
 				5C6848CB1DE6BF250030C32A /* PosterCollectionView.swift in Sources */,
 				5C8A2FFA1DE443760056554E /* BaseNavViewController.swift in Sources */,
 				5C8A2FF51DE4436E0056554E /* StoreViewController.swift in Sources */,

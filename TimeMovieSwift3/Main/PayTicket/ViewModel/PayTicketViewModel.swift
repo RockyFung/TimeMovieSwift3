@@ -28,8 +28,7 @@ class PayTicketViewModel: NSObject {
     // 即将上映数据
     func willNewData(headData:([WillModel])->(),bodyData:([String:[WillModel]],Int)->(), bodyKeys:([String])->()){
         var dataArray:[WillModel] = []
-        
-        let dataDic = CoreDataFromJson.jsonObjectFromFileName(fileName: "but_new")
+        let dataDic = CoreDataFromJson.jsonObjectFromFileName(fileName: "buy_new")
         
         guard let dictionary = dataDic else {
             return
@@ -43,6 +42,7 @@ class PayTicketViewModel: NSObject {
             let model = WillModel(dic:dic)
             dataArray.append(model)
         }
+        headData(dataArray)
         
         // 表视图
         // 新建字典key：月份，value：WillModel
