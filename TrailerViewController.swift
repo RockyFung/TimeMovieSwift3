@@ -1,20 +1,26 @@
 //
-//  MyInfoViewController.swift
-//  TimeMovie-Swift3
+//  TrailerViewController.swift
+//  TimeMovieSwift3
 //
-//  Created by rocky on 2016/11/22.
+//  Created by rocky on 16/12/2.
 //  Copyright © 2016年 rocky. All rights reserved.
 //
 
 import UIKit
 
-class MyInfoViewController: BaseViewController {
+class TrailerViewController: UIViewController {
 
+    var model:TrailerModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let myInfoView = MyInfoView(frame: CGRect(x: 0, y: 0, width: view.bounds.size.width, height: view.bounds.size.height-64-49))
-        view.addSubview(myInfoView)
+        self.title = model?.videoTitle
+        let webView = UIWebView(frame:view.bounds)
+        // 创建请求并加载
+        let request = URLRequest(url:URL(string: (model?.url)!)!)
+        webView.loadRequest(request)
+        view.addSubview(webView)
     }
 
     override func didReceiveMemoryWarning() {

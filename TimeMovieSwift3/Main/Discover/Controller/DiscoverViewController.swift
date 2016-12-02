@@ -70,7 +70,7 @@ class DiscoverViewController: BaseViewController {
         trailerView = TrailerView(frame: CGRect(x: KScreen_W, y: 0, width: KScreen_W, height: Kscreen_H-60-50))
         weak var weakSelf = self
         DiscoverViewModel().trailersData { (data) in
-//            weakSelf!.trailerView?.dataList = data
+            weakSelf!.trailerView?.dataList = data
         }
         view.addSubview(trailerView!)
         
@@ -82,7 +82,7 @@ class DiscoverViewController: BaseViewController {
         topListView = TopListView(frame: CGRect(x: 2*KScreen_W, y: 0, width: KScreen_W, height: Kscreen_H-60-50))
         weak var weakSelf = self
         DiscoverViewModel().topListData { (data) in
-//            weakSelf!.topListView?.dataList = data
+            weakSelf!.topListView?.dataList = data
         }
         view.addSubview(topListView!)
         
@@ -94,7 +94,7 @@ class DiscoverViewController: BaseViewController {
         criticismView = CriticismView(frame: CGRect(x: 3*KScreen_W, y: 0, width: KScreen_W, height: Kscreen_H-60-50))
         weak var weakSelf = self
         DiscoverViewModel().criticismData { (data) in
-//            weakSelf!.criticismView?.dataList = data
+            weakSelf!.criticismView?.dataList = data
         }
         view.addSubview(criticismView!)
         

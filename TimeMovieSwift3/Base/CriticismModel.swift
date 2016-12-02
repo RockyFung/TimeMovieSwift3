@@ -15,4 +15,5 @@ class CriticismModel: BaseModel {
     var title:String?
     var summary:String?
     var relatedObj:NSDictionary?
+    var isExpand:Bool?
 }

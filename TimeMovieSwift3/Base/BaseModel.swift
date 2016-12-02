@@ -56,4 +56,9 @@ class BaseModel: NSObject {
         }
         return newDic
     }
+    
+    override func setValue(_ value: Any?, forUndefinedKey key: String) {
+        
+    }
+    
 }
