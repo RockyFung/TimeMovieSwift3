@@ -48,6 +48,26 @@ class ViewController: UIViewController {
         
         // 设置根视图
         (UIApplication.shared.delegate!.window!)!.rootViewController = tabBarVC
+        
+        // 设置广告动画
+        let nav = tabBarVC.viewControllers?[0]
+        nav?.view.transform = CGAffineTransform(scaleX:0, y:0)
+        UIView.animate(withDuration: 1, animations: { 
+            nav?.view.transform = CGAffineTransform(scaleX:1, y:1)
+            }) { (finished) in
+                //广告视图
+                let adView = ADView(frame: CGRect(x: (KScreen_W-300)/2, y: (Kscreen_H-420)/2, width: 300, height: 420))
+                adView.closeImageStr = "pic_ico_wrong"
+                //添加图片
+                var imageArr:[String] = []
+                for i in 0 ..< 4{
+                    let str = String.init(format: "wizard%d_568@2x.jpg", arguments: [i+1])
+                    imageArr.append(str)
+                }
+                adView.imageArray = imageArr
+                adView.showViewAnimation()
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {

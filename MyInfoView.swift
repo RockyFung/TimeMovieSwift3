@@ -14,10 +14,12 @@ class MyInfoView: UIView {
     
     var tableView:UITableView?
     
+    
     override init(frame:CGRect){
         super.init(frame: frame)
-        creatTableView()
         loadData()
+        creatTableView()
+        
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -30,20 +32,27 @@ class MyInfoView: UIView {
     }
 
     func creatTableView(){
-        tableView = UITableView(frame:bounds, style:UITableViewStyle.grouped)
+        tableView = UITableView(frame:bounds, style:UITableViewStyle.plain)
 //        tableView?.backgroundColor = UIColor.clear
         tableView?.delegate = self
         tableView?.dataSource = self
         tableView?.sectionHeaderHeight = 30
+        tableView?.sectionFooterHeight = 1
         addSubview(tableView!)
+        
+        let headerView = Bundle.main.loadNibNamed("MyInfoHeaderView", owner: nil, options: nil)?[0] as! MyInfoHeaderView
+//        headerView.backgroundColor = UIColor.cyan
+        tableView?.tableHeaderView = headerView
     }
 }
 
 
 extension MyInfoView:UITableViewDelegate, UITableViewDataSource{
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return (dataList?.count)!
     }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return (dataList![section] as! NSArray).count
   
